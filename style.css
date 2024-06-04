@@ -1,0 +1,138 @@
+body{
+    color: #471717;
+    margin: 0;
+    font-family: "Barlow";
+}
+
+a{
+    text-decoration: none;
+    color: #222222;
+}
+
+a:hover{
+    color: #464ebb;
+}
+.logo{
+width: 250px
+}
+.header{
+    margin-top: 8px;
+    width: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.menu{
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu-links{
+    list-style: none;
+}
+
+.menu-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.banner{
+    width: 100%;/* larura total*/
+    text-align: center;/*centraliza o conteudo*/
+}
+
+.banner p{
+    font-size: 40px; /*tamanho da fonte*/
+    text-align: center;/*alinha o texto no centro*/
+}
+
+.banner img{
+    width: 30%;/*largura da imagem*/
+}
+
+.center{
+    width: 45%;/*largura da centro*/
+    display: inline-block;/*coloca centro lado a lado*/
+    vertical-align: middle;/*alinha verticalmente ao meio*/
+}
+
+.botao{
+    border: 1px solid #4d5ebd;/*borda do botão*/
+    border-radius: 14px;/*borda arrendondada*/
+    padding: 20px;/*espaçamento interno*/
+    font-size: 20px;/*tamanho da fonte*/
+}
+
+.cardapio{
+    box-sizing: border-box;
+    border-top: 1px dashed #999999;
+    width: 100%;
+    margin: auto;
+    max-width: 700px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px 15px 10px 15px;
+    /*       12h  15h   18h  21h  */
+}
+.cardapio-categoria{
+    text-align: left;
+    color: #3958e2;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.cardapio-item{
+    padding-top: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.cardapio-nome{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cardapio-preco{
+    font-size: 18px;
+    float: right;
+}
+
+.cardapio-descricao{
+    font-size: 12px;
+    color:#999999;
+}
+
+footer{
+    margin-top: 100px;
+    width: auto;
+    text-align: center;
+    padding: 50px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #434dac;
+}
+
+footer p{
+    margin: 3px;
+}
+.linkwhatsapp img{
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+@media (max-width: 900px){
+    .center{
+        width: 100%;
+        vertical-align: middle;
+        margin-bottom: 30px;
+    }
+.banner p{
+    font-size: 25px;
+    padding-left: 0%;
+    
+    text-align: center;
+}
+}
